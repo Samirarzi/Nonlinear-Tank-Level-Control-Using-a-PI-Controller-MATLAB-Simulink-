@@ -1,3 +1,4 @@
+![1000014920](https://github.com/user-attachments/assets/ae5e5ec1-ce3f-4ff0-a2fe-0d50a8006299)
 # Nonlinear-Tank-Level-Control-Using-a-PI-Controller-MATLAB-Simulink-
 Overview  This project implements and simulates a nonlinear liquid-level control of a single tank in MATLAB/Simulink. The plant is nonlinear because the outflow depends on the square root of the liquid height. A PI controller is used in a feedback loop to regulate the level to a desired setpoint.
 
@@ -136,3 +137,11 @@ These formulas give direct PI gains to place closed-loop poles at desired .
 Steady-state behavior
 
 Because the controller contains an integrator, a step reference in level produces zero steady-state error (for constant references), assuming closed-loop stability.
+![1000014921](https://github.com/user-attachments/assets/ccc55e80-2869-46d7-8478-36ace9e26fb0)
+This project focuses on analyzing and designing a control system and its dynamic behavior. The main goal is to evaluate the system using a simple controller, with results presented through simulations and practical observations.
+
+In future updates, I plan to introduce disturbances and non-ideal conditions to the system to observe how the PI controller responds and what practical challenges arise.
+
+Additionally, in a separate branch of the repository, I will address the effect of the derivative term and explain why it has been considered zero in this project. This clarification ensures the design decisions are transparent and well-documented.
+
+This project was designed and implemented by Engineer Ali Vafaei Pour and amirhossein arzi.
